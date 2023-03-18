@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 283, y: -148}
+  m_AnchoredPosition: {x: 190, y: -148}
   m_SizeDelta: {x: 77.5218, y: 73.4348}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &256169387
@@ -297,7 +297,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -365,7 +365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -288, y: -150}
+  m_AnchoredPosition: {x: -198, y: -150}
   m_SizeDelta: {x: 71.3914, y: 73.435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &601189702
@@ -890,7 +890,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1935429369
 BoxCollider2D:
   m_ObjectHideFlags: 0
